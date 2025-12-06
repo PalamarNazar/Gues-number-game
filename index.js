@@ -26,8 +26,6 @@ let number = 0
 
     gameSlide.classList.add('game__slide-active');
     overlay.classList.add('overlay-active')
-
-    console.log(number)
 })
 gameExit.addEventListener('click', function () {
         gameSlide.classList.remove('game__slide-active');
