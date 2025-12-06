@@ -6,7 +6,7 @@
 <div>
 <h2>Демонстрация</h2>
 
-...
+<p>Перейдите на сайт <a href="https://palamarnazar.github.io/Gues-number-game/"><img src="https://img.shields.io/badge/Visite%20site-%20blue"/></a></p>
 </div>
 
 
