@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Gme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="game-slide">
+                <h2 class="game-title">This is game "Gues the number"</h2>
+                <div class="game-content">
+                    <label for="innernum" class="game-discription">Try to gues the number from 1 to 100.</label>
+                    <input type="number" class="game-input" id="innernum" placeholder="Write number">
+                    <span class="game-error-message"></span>
+                    <span class="game-helper"></span>
+                </div>
+                <div class="game__button-box">
+                    <button type="submit" class="game-btn game__btn-next">Next</button>
+                    <div class="game__exit-border">
+                        <button class="game-btn game__btn-exit">Exit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="game__slide-end">
+                <p>Congratulations, you won!!!</p>
+            </div>
+            <div class="counter">
+                <p class="counter-text">You have: <span id="count-num">0</span> points</p>
+            </div>
+            <div class="content-inner">
+                <div class="content">
+                    <h1 class="text">Click, if you want star game</h1>
+                    <ul class="attemps-list">
+                        <li class="attemps__list-item" style="grid-area: 1 / 1 / 2 / 2;">1 attemps: 3 points</li>
+                        <li class="attemps__list-item" style="grid-area: 1 / 2 / 2 / 3;">2 or 3 attemps: 2 points</li>
+                        <li class="attemps__list-item" style="grid-area: 2 / 1 / 3 / 3;">>3 attemps: 1 points</li>
+                    </ul>
+                    <hr>
+                    <button class="button">Click</button>
+                    <p>Attemps in this round: <span id="attemps">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
