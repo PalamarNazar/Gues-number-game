@@ -1,30 +1,10 @@
-<h1>Игра «Угадай число»</h1>
+<h1>Game "Guess the number"</h1>
 
-<p><b>Кратко</b>: <br>
-  простая браузерная игра на чистом JavaScript, HTML и CSS — угадайте число, загаданное компьютером.</p>
+<p><b>Briefly</b>: <br>
+  A simple browser game written in pure JavaScript, HTML, and CSS—guess the number the computer has guessed.</p>
   
 <div>
-<h2>Демонстрация</h2>
+<h2>Demonstration</h2>
 
-<p>Перейдите на сайт <a href="https://palamarnazar.github.io/Gues-number-game/"><img src="https://img.shields.io/badge/Visite%20site-%20blue"/></a></p>
-</div>
-
-
-<div>
-<h2>Фичи</h2>
-<ul>
-  <li>Генерация случайного числа в заданном диапазоне.</li>
-  <li>Подсказки "больше" / "меньше".</li>
-  <li>Подсчёт попыток.</li>
-</ul>
-</div>
-
-<div>
-  <h2>Правила игры</h2>
-  <ul>
-    <li>Компьютер загадывает целое число в диапазоне (по умолчанию 1–100).</li>
-    <li>Игрок вводит предположение и нажимает кнопку "Next".</li>
-    <li>Игра сообщает, больше или меньше загаданное число, или поздравляет при угадывании.</li>
-    <li>Можно начать новую игру в любой момент.</li>
-  </ul>
+<p>Go to the site <a href="https://palamarnazar.github.io/Gues-number-game/"><img src="https://img.shields.io/badge/Visite%20site-%20blue"/></a></p>
 </div>
